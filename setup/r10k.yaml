@@ -1,0 +1,5 @@
+:cachedir: '/opt/puppetlabs/agent/cache/r10k'
+    :sources:
+        :my-org:
+            remote: 'git@github.com:justinstoller/puppet-agent-demo.git'
+            basedir: '/etc/puppetlabs/agent/code/environments'
